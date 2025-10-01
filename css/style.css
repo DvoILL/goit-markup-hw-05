@@ -856,17 +856,10 @@ margin-top: 8px;
     margin-bottom: 24px;
 }
 
-.privacy-text{
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.16667;
-        letter-spacing: 0.04em;
-        color: #8E8F99;
-        display: inline-flex;
-}
+
 
 .label-privacy{
-    display: flex;
+    display: inline-flex;
     align-items: baseline;
     gap: 8px;
     cursor: pointer;
