@@ -518,7 +518,7 @@
             <div class="input-wrapper">
               <input
                 type="text"
-                name="username"
+                name="user-name"
                 class="label-input"
                 required
                 id="user-name"
@@ -562,7 +562,7 @@
           <div class="form-textarea">
             <label for="user-comment" class="modal-label"> Comment</label>
             <textarea
-              name="comment"
+              name="user-comment"
               rows="5"
               placeholder="Text input"
               id="user-comment"
@@ -570,6 +570,7 @@
             ></textarea>
           </div>
           <div class="privacy">
+            <label for="user-privacy" class="label-privacy"></label>
             <input
               type="checkbox"
               name="user-privacy"
@@ -577,15 +578,14 @@
               class="checkbox-privacy visually-hidden"
               value="true"
             />
-            <label for="user-privacy" class="label-privacy">
               <span class="privacy-text-box"
                 ><svg class="modal-check-icon" width="10" height="8">
                   <use href="./images/modal-icons.svg#icon-check"></use>
                 </svg>
               </span>
               <span class="privacy-text">
-                I accept the terms and conditions of the
-                <a href="" class="privacy-a">Privacy Policy</a>
+                I accept the terms and conditions of the 
+                <a href="/index.html" class="privacy-a" target="_blank">Privacy Policy</a>
               </span>
             </label>
           </div>
