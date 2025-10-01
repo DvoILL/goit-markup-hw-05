@@ -859,7 +859,7 @@ margin-top: 8px;
 
 
 .label-privacy{
-    display: inline-flex;
+    display: flex;
     align-items: baseline;
     gap: 8px;
     cursor: pointer;
