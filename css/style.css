@@ -630,8 +630,13 @@ overflow: hidden;
 }
 
 .form-email {
-    position: absolute;}
+    display: flex;
+    gap: 24px;
+    }
 
+.footer-label{
+
+}
 .input-email {
     border: 1px solid #FFFFFF;
         border-radius: 4px;
