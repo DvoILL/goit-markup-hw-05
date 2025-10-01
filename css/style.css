@@ -671,7 +671,7 @@ overflow: hidden;
         border-radius: 4px;
             padding-block: 8px;
             padding-inline: 24px;
-            width: 165px;
+            min-width: 165px;
             height: 40px;
         background: #4D5AE5;
         font-weight: 500;
@@ -689,6 +689,7 @@ overflow: hidden;
 
 .footer-icon-tg {
     fill: #FFFFFF;
+    margin-left: 16px;
 }
 
 /* ---------MODAL----------- */
